@@ -1,0 +1,10 @@
+{
+  "path_to_deeds_linear": "/path/to/repository/runner/reg_executables_arch/linearBCV",
+  "transform_type": "affine",
+  "transform_type_help" : {
+    "mode1": "affine",
+    "mode2": "rigid"
+  },
+  "use_initial_transform_matrix" : false
+}
+

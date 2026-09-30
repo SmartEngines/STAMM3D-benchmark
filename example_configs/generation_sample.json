@@ -1,0 +1,118 @@
+{
+    "path_to_data" : "/path/to/data",
+    "packages_help": { 
+		"0": "Brachiopoda_sr",
+		"1": "Brachiopoda_n",
+		"2": "CAD_model",
+		"3": "CAD_model_rec",
+        "4": "Lab_card_60kv",
+        "5": "Lab_card_130kv",
+        "6": "Comm_card",
+        "7": "Lab_BPS_60kv",
+        "8": "Lab_BPS_130kv",
+        "9": "Comm_BPS",
+        "10": "Lab_leg_60kv",
+        "11": "Lab_leg_130kv",
+        "12": "Comm_leg",
+        "13": "Lab_nut_60kv",
+        "14": "Lab_nut_130kv",
+        "15": "Comm_nut",
+        "16": "Lab_SPS_60kv",
+        "17": "Lab_SPS_1300kv",
+        "18": "Comm_SPS",
+        "19": "Wallnut",
+        "20": "Wallnut_enlarged",
+        "21": "Wallnut_rotated"
+    },
+    "testing_group_list" : [
+        {
+        "skip_current_group": false,
+        "testing_package" : "Wallnut",
+        "repeat" : 1,
+        "gr_dimention": 1,
+        "center_of_rotation_in_origin": false,
+        "rotation_0x_deg" : 0,
+        "rotation_0y_deg" : 0,
+        "rotation_0z_deg" : 0,
+        "scale" : 1.0,
+        "offset_x" : 0.0,
+        "offset_y" : 0.0,
+        "offset_z" : 0.0,
+        "noise_level" : 0.0,
+        "varying_random_noise" : false,
+        "general_random_seed" : 2121,
+        "gaussian_sigma" : 1.0,
+        "variation1" : {
+            "param_name" : "rotation_0x_deg",
+            "left_border" : 0.0,
+            "right_border" : 100.0,
+            "points_amount" : 5
+        },
+        "variation2" : {
+            "param_name" : "rotation_0y_deg",
+            "left_border" : 0.0,
+            "right_border" : 1.0,
+            "points_amount" : 4
+        }
+        },
+        {
+        "skip_current_group": false,
+        "testing_package" : "Wallnut",
+        "repeat" : 3,
+        "gr_dimention": 1,
+        "center_of_rotation_in_origin": false,
+        "rotation_0x_deg" : 0,
+        "rotation_0y_deg" : 0,
+        "rotation_0z_deg" : 0,
+        "scale" : 1.0,
+        "offset_x" : 0.0,
+        "offset_y" : 0.0,
+        "offset_z" : 0.0,
+        "noise_level" : 0.05,
+        "varying_random_noise" : false,
+        "general_random_seed" : 2121,
+        "gaussian_sigma" : 1.0,
+        "variation1" : {
+            "param_name" : "rotation_0x_deg",
+            "left_border" : 0.0,
+            "right_border" : 1.0,
+            "points_amount" : 7
+        },
+        "variation2" : {
+            "param_name" : "rotation_0y_deg",
+            "left_border" : 0.0,
+            "right_border" : 1.0,
+            "points_amount" : 7
+        }
+        },
+        {
+        "skip_current_group": false,
+        "testing_package" : "Wallnut",
+        "repeat" : 4,
+        "gr_dimention": 0,
+        "center_of_rotation_in_origin": false,
+        "rotation_0x_deg" : 0,
+        "rotation_0y_deg" : 0,
+        "rotation_0z_deg" : 0,
+        "scale" : 1.0,
+        "offset_x" : 0.0,
+        "offset_y" : 0.0,
+        "offset_z" : 0.0,
+        "noise_level" : 0.05,
+        "varying_random_noise" : false,
+        "general_random_seed" : 2121,
+        "gaussian_sigma" : 1.0,
+        "variation1" : {
+            "param_name" : "rotation_0x_deg",
+            "left_border" : 0.0,
+            "right_border" : 1.0,
+            "points_amount" : 7
+        },
+        "variation2" : {
+            "param_name" : "rotation_0y_deg",
+            "left_border" : 0.0,
+            "right_border" : 1.0,
+            "points_amount" : 7
+        }
+        }]
+}

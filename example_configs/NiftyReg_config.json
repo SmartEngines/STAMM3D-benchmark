@@ -1,0 +1,10 @@
+{
+  "path_to_aladin": "/path/to/repository/runner/reg_executables_win/reg_aladin.exe",
+  "transform_type": "affine",
+  "transform_type_help" : {
+    "mode1": "affine",
+    "mode2": "rigid"
+  },
+  "use_initial_transform_matrix" : true
+}
+

@@ -1,0 +1,37 @@
+{
+    "path_to_data" : "/path/to/repository/data",
+    "path_to_results" : "/path/to/results",
+    "experiment_name" : "Example_benchmark",
+    "algorithm_name" : "affOrigSITK",
+
+    "algorithm_execution_parameters_path": "/path/to/repository/example_configs/ready_to_use_configs/affOrigSITK/affOrigSITK_config.json",
+    "algorithm_path": "/path/to/repository/runner/SITK.py",
+    "alg_interpreter_path": "/path/to/venv_name/Scripts/python.exe",
+
+    "OperationMode": "Benchmark",
+    "OperationModeHelp": {
+        "mode1" : "Benchmark",
+        "mode2" : "ReadyMadeSamples",
+        "mode3" : "TwoVolumes"
+    },
+    "delete_temp_files" : true,
+    "registered_volumes_writing": false,
+    "minimize_padding" : true,
+    "calculate_metrics": true,
+    "SelectedMetricsList" :["MSE",
+                            "norm_max_corner_TRE",
+                            "max_corner_TRE",
+                            "norm_BBRE",
+                            "BBRE",
+                            "norm_geometry_MSE"],
+
+    "Testing_group_list" : [],
+    "plot_metrics":true,
+    "generator_config_path" : "",
+
+    "path_to_markup" : "",
+    "path_to_moving" : "",
+    "path_to_gt_matrix_json" : "",
+    "path_to_initial_transform_matrix_json" : ""
+}
+

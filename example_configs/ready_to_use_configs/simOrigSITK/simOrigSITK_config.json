@@ -1,0 +1,42 @@
+{
+  "TransformType": "Similarity",
+  "InitialTransform": "MOMENTS",
+  "initial_transform_help": {
+    "geometrical center to geometrical center translation" : "GEOMETRY",
+    "center of mass to center of mass translation" : "MOMENTS",
+    "landmark based initial transform" : "POINTS",
+    "from given in main pipline matrix" : "MATRIX",
+    "set initial transform manually" : "MANUAL"
+  },
+  "imagej_landmark_coords_file_path" : "",
+  "InitialTransformParams":{
+    "scale": 1.0,
+    "rotation": [0.0 , 0.0, 0.0],
+    "InitialTranslationOption": "GEOMETRY",
+    "InitialTranslationOptionHelp":{
+      "same as in initial_transform_help" : "GEOMETRY",
+      "same as in initial_transform_help " : "MOMENTS",
+      "will be set as given below in XYZ order" : "MANUAL"
+    },
+    "translation": [0.0 , 0.0, 0.0]
+  },
+  "InitialTransformViewer" : false,
+  "OptimizeWithFixedScaleFactor" : false,
+  "Metric": "MattesMutualInformation",
+  "MMI_MetricNumberOfHistogramBins": 50,
+  "Interpolator": "Linear",
+  "HistMatching": false,
+  "MetricSamplingStrategy": "Random",
+  "MetricSamplingPercentage": 0.01,
+  "Optimizer": "GradientDescent",
+  "Estimate_learning_rate_option" : "Once",
+  "LearningRate": 1.0,
+  "NumberOfIterations": 100,
+  "minStep":1e-5,
+  "relaxationFactor":0.7,
+  "gradientMagnitudeTolerance": 1e-6,
+  "ConvergenceMinimumValue": 1e-6,
+  "ConvergenceWindowSize": 10,
+  "ShrinkFactors": [4,2,1],
+  "SmoothingSigmas": [2,1,0]
+}

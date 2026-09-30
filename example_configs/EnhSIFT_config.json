@@ -1,0 +1,21 @@
+{
+  "algorithm_points": "3DSIFT",
+  "path_to_featExtract": "/path/to/repository/runner/reg_executables_win/3DSIFT.exe",
+  "ransac_type": "affine",
+  "ransac_type_help" : {
+    "mode1": "affine",
+    "mode2": "similarity"
+  },
+  "use_initial_transform_matrix" : false,
+  "num_kp_levels" : 3,
+  "sigma_default" : 1.6,
+  "sigma_n_default" : 1.15,
+  "peak_thresh" : 0.1, 
+  "max_eigo_thres" : 0.9,
+  "corner_thresh" : 0.4,
+  "matcher_threshold": 0.9,
+  "reading_threshold": 1.0,
+  "RansacThreshold": 1.2,
+  "AffineRansacConfidence": 0.999,
+  "SimilarityRansacMaxIterations": 100000
+}

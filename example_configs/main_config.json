@@ -1,0 +1,42 @@
+{
+    "path_to_data" : "/path/to/data/",
+    "path_to_results" : "/path/to/results",
+    "experiment_name" : "benchmark_experiment_name",
+    "algorithm_name" : "benchmarked_algorithm_name",
+    "algorithm_name_examples" : {
+        "1" : "SIFT",
+        "2" : "SITK",
+        "3" : "any_convenient_name_for_the_method"
+    },
+    
+    "algorithm_execution_parameters_path": "/path/to/registration/algoritm/config/file",
+    "algorithm_path": "/path/to/registration/algoritm/executable",
+    "alg_interpreter_path": "",
+
+    "OperationMode": "Benchmark",
+    "OperationModeHelp": {
+        "mode1" : "Benchmark",
+        "mode2" : "ReadyMadeSamples",
+        "mode3" : "TwoVolumes"
+    },
+    "delete_temp_files" : true,
+    "registered_volumes_writing": true,
+    "minimize_padding" : true,
+    "calculate_metrics": true,
+    "SelectedMetricsList" :["MSE",
+                            "norm_max_corner_TRE",
+                            "max_corner_TRE",
+                            "norm_BBRE",
+                            "BBRE",
+                            "norm_geometry_MSE"],
+
+    "Testing_group_list" : [],
+    "plot_metrics":true,
+    "generator_config_path" : "/path/to/generation_config.json",
+
+    "path_to_markup" : "/path/to/markup",
+    "path_to_moving" : "/path/to/markup",
+    "path_to_gt_matrix_json" : "/path/to/gt_matrix.json",
+    "path_to_initial_transform_matrix_json" : "/path/to/initial_transform_matrix.json"
+}
+

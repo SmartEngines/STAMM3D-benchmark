@@ -1,0 +1,5 @@
+{
+  "path_to_regsift3d": "/path/to/repository/runner/reg_executables_arch/regSift3D",
+  "use_initial_transform_matrix" : true
+}
+
